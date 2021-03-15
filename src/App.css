@@ -1,0 +1,262 @@
+* {
+  outline: none !important;
+}
+
+body {
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Home Css For Background */
+
+.headerAndBannerForBanner {
+  height: 500px;
+  background-image: url('https://images.pexels.com/photos/4330308/pexels-photo-4330308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-position: center;
+  background-size: 100% !important;
+  position: relative;
+}
+
+.headerAndBannerForBanner::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #e7e7e7a6;
+  content: "";
+  backdrop-filter: saturate(122%) blur(4px);
+  -webkit-backdrop-filter: saturate(122%) blur(4px);
+}
+
+.headerAcName {
+  margin-left: 20px !important;
+  font-size: 20px;
+  color: #292929;
+  font-weight: bold;
+  margin-left: 20px !important;
+}
+
+/* Home Css For Background */
+
+/* Header Css Start */
+
+.headerMain {
+  padding: 20px 0;
+  height: 120px;
+}
+
+.logoLink {}
+
+.logoImg {
+  width: 200px;
+}
+
+.headerBigBtn .btn {
+  margin-right: 10px !important;
+  padding: 10px 30px !important;
+}
+
+.headerBtnAdmin {
+  background-color: #434141 !important;
+  border: qpx solid #5f5f5f !important;
+}
+
+/* Header Css End */
+
+/* Banner Css Start */
+
+.bannerMain {
+  position: inherit;
+}
+
+.bannerTitle {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.bannerSearchForm {
+  width: 600px !important;
+  margin: 0 auto;
+  display: flex;
+}
+
+.bannerSearchInput {
+  border-radius: 6px 0 0 6px !important;
+}
+
+.bannerSearchSubmitBtn {
+  border-radius: 0 6px 6px 0 !important;
+}
+
+/* Banner Css End */
+
+/* Opportunity Css Start */
+
+.opportunitiesMain {
+  margin-top: -150px !important;
+}
+
+.opportunityCard {
+  border: none;
+  border-radius: 9px !important;
+  margin-bottom: 30px;
+  height: 363px !important;
+}
+
+.opportunityImg {
+  position: relative;
+}
+
+.opportunityTitle {
+  width: 100%;
+  position: absolute;
+  background: #FFBD3E;
+  margin-top: 94.6%;
+  border-radius: 0 0 9px 9px;
+  color: rgb(255, 255, 255);
+  height: 90px;
+}
+
+.opportunitiesLoaderContainer {
+  width: 100px !important;
+  margin: 0 auto !important;
+}
+
+.opportunitiesLoaderContainer img {
+  width: 100px !important;
+  height: 160px !important;
+  position: absolute;
+}
+
+/* Opportunity Css End */
+
+/* Login Page Css Start */
+
+.loginLogo {
+  width: 200px;
+  margin: 10px auto;
+}
+
+.loginLogo img {
+  width: 100%;
+}
+
+.loginContainer {
+  width: 500px;
+  padding: 100px 15px !important;
+  border: 1px solid #aaa;
+  margin: 75px auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.loginTitle {}
+
+.googleLoginBtn {
+  width: 400px !important;
+  height: 44px;
+  border-radius: 100px !important;
+  border: 1px solid #aaa !important;
+  margin-top: 40px !important;
+}
+
+.googleLoginBtn span img {
+  width: 40px !important;
+  float: right !important;
+}
+
+/* Login Page Css End */
+
+/* Register Volunteer page Start */
+
+.RegisterVolunteerForm {
+  width: 550px;
+  padding: 20px 35px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: rgb(255, 0, 13);
+}
+
+.RegisterVolunteerForm .MuiFormControl-root {
+  width: 100% !important;
+}
+
+.registerVolunteerSubmitBtn {
+  padding: 10px;
+  width: 100%;
+  background: #3F90FC !important;
+  color: #fff !important;
+}
+
+.registerPageLoader {
+  width: 130px !important;
+  margin: 0 auto !important;
+}
+
+.registerPageLoader img {
+  width: 130px !important;
+}
+
+.rFormInput {
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #aaa;
+}
+
+.rFormInput:focus {
+  border-bottom: 1px solid rgb(58, 127, 255);
+}
+
+/* Register Volunteer page End */
+
+/* My Profile Css Start */
+
+.myOp {
+  border: none;
+  background: #E3E3E3;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.cardImg {
+  width: 26%;
+  margin-right: 15px;
+}
+
+.cardImg img {
+  width: 100%;
+}
+
+.cardContent {
+  width: 100%;
+}
+
+.cardCancelBtn {
+  background: rgb(155, 162, 170);
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #aaaaaa;
+  width: 120px;
+  display: inline-block;
+  margin-left: 75%;
+  margin-top: -54px;
+  margin-bottom: 15px;
+}
+
+/*  */
+
+.MuiFormControl-root {
+  margin-left: 0 !important;
+}
